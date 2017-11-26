@@ -14,6 +14,7 @@
 
 <body>
 
+    <!-- Navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -22,23 +23,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="images/jaggedCrownSmall.png" class="img-responsive" style="height:100%" alt="Logo">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li class="active">
-                        <a href="#">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#myModal" data-toggle="modal" data-target="#aboutModal">About</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Heading -->
     <div class="container">
         <div class="col-sm-6 col-sm-offset-3 text-center">
             <h1>Skyrim Character Generator</h1>
@@ -47,6 +49,7 @@
         </div>
     </div>
 
+    <!-- Character Table -->
     <div class="container">
         <div class="col-sm-6 col-sm-offset-3">
             <div id="characterTable" style="display: none">
@@ -91,7 +94,7 @@
                             <td id="standingStoneValue"></td>
                         </tr>
                         <tr class="active">
-                            <th scope="row">Section 3</th>
+                            <th scope="row">Personal</th>
                             <td></td>
                         </tr>
                         <tr>
@@ -155,6 +158,31 @@
             </div>
         </div>
     </div>
+
+    <!-- About Modal -->
+    <div class="modal fade" id="aboutModal" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Skyrim Character Generator</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="images/jaggedCrownSmall.png"  alt="Logo">
+                    </p>
+                    <p>pshelb 2017</p>
+                    <p>
+                        <a href="https://github.com/pshelb/skyrim-character-generator">GitHub</a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
     <script src="scripts/charGen.js" type="text/javascript"></script>
 </body>
 
