@@ -1,7 +1,7 @@
 var genders = ['Male', 'Female'];
 var races = ['Altmer (High Elf)', 'Argonian', 'Bosmer (Wood Elf)', 'Breton', 'Dunmer (Dark Elf)', 'Imperial', 'Khajiit', 'Nord', 'Orsimer (Orc)', 'Redguard'];
 var armours = ['Heavy', 'Light', 'Unarmoured'];
-var combatStyles = ['One-handed', 'One-handed', 'Archery', 'Destruction'];
+var combatStyles = ['One-handed', 'Two-handed', 'Archery', 'Destruction'];
 var standingStones = ['The Apprentice Stone', 'The Atronach Stone', 'The Lady Stone', 'The Lord Stone', 'The Lover Stone', 'The Mage Stone', 'The Ritual Stone', 'The Serpent Stone', 'The Shadow Stone', 'The Steed Stone', 'The Thief Stone', 'The Tower Stone', 'The Warrior Stone'];
 var houses = ['Breezehome', 'Honeyside', 'Vlindrel Hall', 'Hjerim', 'Proudspire Manor', 'Heljarchen Hall', 'Lakeview Manor', 'Windstad Manor', 'Severin Manor'];
 var spousesFemale = ['Aela the Huntress', 'Aeri', 'Anwen', 'Avrusa Sarethi', 'Borgakh the Steel Heart', 'Brelyna Maryon', 'Camilla Valerius', 'Dravynea the Stoneweaver', 'Ghorza gra-Bagol', 'Gilfre', 'Hilund', 'Iona', 'Jenassa', 'Jordis the Sword-Maiden', 'Lydia', 'Mjoll the Lioness', 'Morwen', 'Muiri', 'Njada Stonearm', 'Orla', 'Rayya', 'Ria', 'Senna', 'Shahvee', 'Sylgja', 'Taarie', 'Temba Wide-Arm', 'Uthgerd the Unbroken', 'Viola Giordano', 'Ysolda'];
